@@ -13,8 +13,8 @@ public class EvenNumber {
 //        }÷
 
 
-        for(; number>0; number--){
-            String type = number % 2 == 0 ? "EVEN" : "ODD";
+                    for(; number>0; number--){
+String type = number % 2 == 0 ? "EVEN" : "ODD";
             System.out.println("given number : "+number+", type : "+ type);
 
         }
